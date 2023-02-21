@@ -1,0 +1,182 @@
+.divnav{
+    background-color: #05386b;
+    position: fixed;
+    top: 0;width: 100%;
+    padding: 5px;
+    z-index: 1;
+}
+video{
+    
+    z-index: 0;
+    background-size: cover;
+
+}
+nav{
+    background: #05386b;
+    width: 100%;
+    height: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    margin: 0 5px;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+a.active,a:hover{
+    background: white;
+    color: black;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+@media (max-width:952px) {
+
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width:858px) {
+    .checkbtn{
+        display: block;
+
+    }
+
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #969799;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition:  all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: white;
+    }
+    #check:checked ~ul{
+        left: 0;
+    }
+
+}
+.container{
+    margin: 5px;
+}
+h1{
+    color: #969799;
+}
+p{
+    width: 100%; font-weight: 400;
+}
+.profImg{
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgb(195, 203, 221);
+}
+
+#mainTable {
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+#mainTab {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#mainTb {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#userImage {
+    width: 500px;
+    margin: 16px;
+}
+.bioBox {
+    width: 70%;
+    text-align: left;
+}
+.btn{
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #05386b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+* {box-sizing: border-box;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #05386b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.divfooter{
+    background-color:#05386b;
+}
+form label {
+    color: white;
+}
+
